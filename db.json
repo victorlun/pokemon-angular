@@ -1,0 +1,154 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "username": "test",
+      "fullname": "sss"
+    }
+  ],
+  "trainers": [
+    {
+      "id": 1,
+      "username": "ash",
+      "pokemon": [
+        "bulbasaur",
+        "pikachu"
+      ]
+    },
+    {
+      "id": 2,
+      "username": "ash ash",
+      "pokemon": [
+        "Caterpie",
+        "Charizard",
+        "Charmeleon",
+        "Charmander",
+        "Pidgey",
+        "Pidgeotto",
+        "Pidgeot",
+        "Bulbasaur",
+        "Ivysaur"
+      ]
+    },
+    {
+      "id": 3,
+      "username": "dewaldels",
+      "pokemon": [
+        "Charmander",
+        "Venusaur",
+        "Wartortle",
+        "Charmeleon",
+        "Squirtle",
+        "Diglett",
+        "Caterpie",
+        "Metapod",
+        "Smeargle",
+        "Dugtrio",
+        "Grovyle",
+        "Sceptile",
+        "Sentret",
+        "Natu",
+        "Suicune",
+        "Registeel",
+        "Regirock",
+        "Venomoth",
+        "Mewtwo",
+        "Moltres",
+        "Zapdos"
+      ]
+    },
+    {
+      "id": 4,
+      "username": "eeeee",
+      "pokemon": [
+        "Bulbasaur",
+        "Ivysaur",
+        "Venusaur",
+        "Charmeleon",
+        "Charizard",
+        "Wartortle",
+        "Caterpie",
+        "Metapod",
+        "Weedle",
+        "Beedrill",
+        "Pidgeotto",
+        "Pidgeot",
+        "Raticate",
+        "Pikachu",
+        "Raichu"
+      ]
+    },
+    {
+      "id": 5,
+      "username": "dewaldels2",
+      "pokemon": [
+        "Weedle",
+        "Kakuna",
+        "Beedrill",
+        "Venusaur",
+        "Bulbasaur",
+        "Ivysaur",
+        "Charmander",
+        "Charmeleon",
+        "Blastoise",
+        "Charizard",
+        "Venomoth",
+        "Hypno",
+        "Krabby"
+      ]
+    },
+    {
+      "id": 6,
+      "username": "qdqqdwq",
+      "pokemon": [
+        "Bulbasaur",
+        "Ivysaur"
+      ]
+    },
+    {
+      "id": 7,
+      "username": "aaaaa",
+      "pokemon": [
+        "Charmander",
+        "Venusaur",
+        "Wartortle",
+        "Charizard",
+        "Pidgeotto",
+        "Pidgeot",
+        "Rattata",
+        "Blastoise",
+        "Caterpie",
+        "Bulbasaur",
+        "Ivysaur"
+      ]
+    },
+    {
+      "id": 8,
+      "username": "ssaas",
+      "pokemon": []
+    },
+    {
+      "id": 9,
+      "username": "testen",
+      "pokemon": [
+        "Squirtle",
+        "Venusaur",
+        "Charmander",
+        "Charizard"
+      ]
+    },
+    {
+      "id": 10,
+      "username": "tesaaaa",
+      "pokemon": []
+    },
+    {
+      "id": 11,
+      "username": "000000",
+      "pokemon": [
+        "Bulbasaur",
+        "Ivysaur"
+      ]
+    }
+  ]
+}

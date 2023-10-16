@@ -1,0 +1,60 @@
+.loginForm {
+  background: white;
+  border: 5px solid;
+  padding: 20px;
+  margin-right: 100px;
+  margin-left: 100px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+.inputText {
+  padding: 25px;
+  border: 2px solid rgb(5, 5, 5);
+  border-radius: 5px;
+  margin-bottom: 2px;
+  position: relative;
+}
+
+.loadingText {
+  color: rgb(9, 10, 9);
+}
+
+.loadingText img {
+  animation: rotateAnimation 1s linear infinite;
+}
+
+.btn-primary {
+  background-color: #161615;
+  border-color: #0f0f0e;
+  color: #f03939;
+  font-weight: bold;
+  border-radius: 50px;
+  margin-top: 10px;
+  width: 120px;
+  height: 50px;
+  margin-left: -20px;
+}
+
+.btn-primary:hover {
+  background-color: #4d9f0c;
+  border-color: #4d9f0c;
+  color: #ffffff;
+}
+
+
+@media (max-width: 800px) {
+  .inputText {
+    padding: 15px;
+  }
+}
+
+@keyframes rotateAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

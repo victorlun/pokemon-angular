@@ -1,0 +1,51 @@
+.navbar {
+  background-image: linear-gradient(to right, #ffcb05, #f8d857);
+  padding: 10px 10px;
+}
+.nav-container{
+ margin-bottom: 50px;
+}
+.navbar .navbar-brand {
+  color: #fff;
+}
+
+.navbar .nav-link {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 22px;
+  font-family: monospace;
+}
+
+
+.nav-link.profile-link:hover {
+  color: blue;
+}
+
+.nav-link.catalogue-link:hover {
+  color: red;
+}
+
+
+.navbar-logo {
+  height: 80px;
+  width: auto;
+
+  position: inherit;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  list-style-type: none;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}

@@ -1,0 +1,29 @@
+
+
+<form class="loginForm" #loginForm="ngForm" (ngSubmit)="login(loginForm)">
+    
+      <input
+        class="inputText"
+        type="text"
+        placeholder="username"
+        ngModel
+        name="username"
+        #username="ngModel"
+        required
+        minlength="5"
+    />
+
+    <p *ngIf="username.errors?.['required']" class="text-danger">Username is required</p>
+    <p *ngIf="username.errors?.['minlength']" class="text-danger">Username needs to be at least 5 characters</p>
+    <h4 *ngIf="apiError" class="text-danger">{{apiError}}</h4>
+
+    <div class="d-grid gap-2 col-2 mx-auto">
+        <button class="btn btn-primary" type="submit" [disabled]="loginForm.invalid">Login</button>
+    </div>
+
+      <h6 class="loadingText" *ngIf="loading">
+        Loading <img src="assets/small-pokeball-icon-4.jpg" alt="pokeball" width="50"/>
+      </h6>
+
+</form>
+  
